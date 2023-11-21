@@ -10,6 +10,7 @@ namespace UILayer.Controllers
     {
         public ActionResult Index()
         {
+           ViewBag.fg="welcome";
             return View();
         }
 
